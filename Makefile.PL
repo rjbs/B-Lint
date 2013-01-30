@@ -8,6 +8,7 @@ WriteMakefile(
     VERSION_FROM  => 'lib/B/Lint.pm',
     ABSTRACT_FROM => 'lib/B/Lint.pm',
     PREREQ_PM     => { 'Module::Pluggable' => 0, 'if' => 0 },
+    LICENSE       => 'perl',
     dist          => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean         => { FILES => 'B-Lint-*' },
 
